@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     >
+    <ViewFlipper
+        android:id="@+id/fragment_banner_viewFilpper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" >
+    </ViewFlipper>
+     <TextView
+         android:id="@+id/fragment_banner_coutTv"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="2/2"
+         android:textSize="16sp"
+         android:textColor="@android:color/white"
+         android:padding="5dp"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentBottom="true"
+         android:background="@android:color/holo_red_light"
+         />
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dip"
+    android:background="@drawable/base_rect_bg"
+    android:minHeight="40dp"
+    android:orientation="horizontal"
+    android:padding="@dimen/dimen_5" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        
+        />
+
+    <TextView
+        android:id="@+id/fragment_placeholder_item_timeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_placeholder_item_vontentLayout"
+        android:layout_marginTop="@dimen/dimen_5"
+        android:gravity="right|bottom"
+        android:text="教育网站"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>

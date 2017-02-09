@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_bg">#FBF7F8</color>
+    <color name="titlie_text">#FFFFFF</color>
+    <color name="action_bar_tab_selcet_n">#1983D1</color>
+    <color name="tab_text_normal">@android:color/white</color>
+    <color name="tab_text_selected">@android:color/white</color>
+    <color name="gray_96">#EFEFF4</color>
+    <color name="gray_95">#f2f2f2</color>
+    <color name="gray_93">#fafafa</color>
+    <color name="gray_90">#e6e6e6</color>
+    <color name="gray_87">#dddddd</color>
+    <color name="gray_80">#cccccc</color>
+    <color name="gray_60">#999999</color>
+    <color name="gray_40">#666666</color>
+    <color name="gray_37">#5e5e5e</color>
+    <color name="gray_33">#333333</color>
+    <color name="gray_30">#4d4d4d</color>
+    <color name="gray_20">#333333</color>
+    <color name="gray_10">#191919</color>
+    <color name="action_tab_bg">#1068B2</color>
+    <color name="action_title_bg">#1068B2</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">@android:color/black</color>
+    <color name="white">@android:color/white</color>
+    <color name="red">#ED341F</color>
+    <color name="blue">#1169B3</color>
+    <color name="tab_btn_h">#DD4F4E</color>
+    <color name="tab_btn_n">#1068B2</color>
+    <color name="blue_light"> #F0F5FB</color>
+    <color name="line"> #e1e1e3</color>
+
+</resources>

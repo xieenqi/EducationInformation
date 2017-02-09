@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.libray.view.CheckableRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_menu_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/nav_menu_item_bg"
+    android:paddingBottom="10dip"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip"
+    android:paddingTop="10dip" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/left_menu_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dip" />
+
+    <TextView
+        android:id="@+id/left_menu_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/left_menu_icon"
+        android:textColor="#ebffc6"
+        android:textSize="18sp" />
+
+</com.libray.view.CheckableRelativeLayout>

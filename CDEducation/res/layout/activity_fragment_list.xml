@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity$PlaceholderFragment" >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/listView_pull"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/gray_96"
+        android:dividerHeight="@dimen/dimen_5"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true"
+        ptr:ptrAnimationStyle="rotate"
+        ptr:ptrHeaderTextColor="@android:color/black"
+        ptr:ptrMode="both" />
+    <include
+        android:id="@+id/fragment_contentList_nodata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        layout="@layout/pull_to_refresh_no_data"/>
+</RelativeLayout>

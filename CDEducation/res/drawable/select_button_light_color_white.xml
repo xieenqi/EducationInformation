@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 按钮在默认被显示的时候 -->
+    <item android:state_enabled="true"><shape>
+            <gradient android:endColor="@color/white" android:startColor="@color/white" />
+
+            <solid android:color="@color/white" />
+
+            <corners android:radius="5dp" />
+
+            <padding android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp" />
+        </shape></item>
+
+</selector><!--
+在item中的可选属性如下：
+	android:state_pressed="true or false"  
+	说明：true表示按下状态使用（例如按钮按下）；false表示非按下状态使用。
+	
+	android:state_focused="true or false"  
+	说明：true表示聚焦状态使用（例如使用滚动球）；false表示非聚焦状态使用。
+	
+	android:state_selected="true or false" 
+	说明：true表示选中状态使用（例如Tab打开）；false表示非选中状态使用。
+	
+	android:state_active="true or false"      
+	说明：true表示可勾选状态时使用；false表示非可勾选状态使用。（只对能切换可勾选—非可勾选的控件有用。）
+	
+	android:state_checkable="true or false"   
+	说明：true表示勾选状态使用；false表示非勾选状态使用。
+	
+	android:state_checked="true or false"     
+	说明：true表示勾选状态使用；false表示非勾选状态使用。
+	
+	android:state_enabled="true or false"     
+	说明：true表示可用状态使用（能接收触摸/点击事件）；false表示不可用状态使用。
+	
+	android:state_window_focused="true or false" 
+	说明：true表示应用程序窗口有焦点时使用（应用程序在前台）；false表示无焦点时使用（例如Notification栏拉下或对话框显示）。
+	
+
+接下来是shape属性的说明：
+
+一. solid：实心，就是填充的意思      android:color指定填充的颜色
+
+二. gradient：渐变    android:startColor和android:endColor分别为起始和结束颜色，android:angle是渐变角度，必须为45的整数倍。
+另外渐变默认的模式为android:type="linear"，即线性渐变，可以指定渐变为径向渐变，android:type="radial"，径向渐变需要指定半径android:gradientRadius="50"。
+
+三. stroke：描边      android:width="2dp" 描边的宽度，android:color 描边的颜色。
+我们还可以把描边弄成虚线的形式，设置方式为：
+android:dashWidth="5dp"
+android:dashGap="3dp"
+其中android:dashWidth表示'-'这样一个横线的宽度，android:dashGap表示之间隔开的距离。
+
+四. corners：圆角   android:radius为角的弧度，值越大角越圆。
+我们还可以把四个角设定成不同的角度，方法为：
+<corners  
+	android:topRightRadius="20dp"    右上角  
+	android:bottomLeftRadius="20dp"    右下角  
+	android:topLeftRadius="1dp"    左上角  
+	android:bottomRightRadius="0dp"    左下角  
+/>  
+这里有个地方需要注意，bottomLeftRadius是右下角，而不是左下角，这个应该是google的错误，千万别搞错了。
+还有一个问题就是在SDK2.2之前设置成0dp无效的，大家在设置的时候注意SDK版本，如果无效的话那就只能设成1dp了。
+-->

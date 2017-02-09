@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.libray.view.BounceScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_bg"
+        android:orientation="vertical" >
+
+         <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="收        藏的内容
+            各相关区（市）县教仪电教馆（站）：
+
+        为加强城市之间教育装备工作合作，增进成都与南京两地之间的互动和交流，共同探索城市教育装备“十三五”规划建设，观摩2015南京教育装备展示会及南京教育装备论坛。经研究，定于11月24日至27日，组织相关区（市）县教仪电教馆（站）负责人或业务骨干参加宁蓉教育装备工作交流会。
+
+        特此通知。
+
+ 
+
+      附件：关于邀请教育工作交流的函
+            
+            " />
+        
+    </LinearLayout>
+
+</com.libray.view.BounceScrollView>

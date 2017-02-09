@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/me_addPhoto_menu_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/dimen_10"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select_button_light_color_white"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/photo_buttton"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:text="相册"
+                android:textSize="16sp"
+                android:textColor="#333333" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_0_6"
+                android:background="@color/gray_60" />
+
+            <Button
+                android:id="@+id/take_picture_buttton"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:text="照相"
+                android:textSize="16sp"
+                android:textColor="#333333" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/me_addPhoto_cancel_buttton"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:background="@drawable/select_button_light_color_white"
+            android:gravity="center"
+            android:text="取消"
+            android:textSize="16sp"
+            android:textColor="#333333" />
+    </LinearLayout>
+
+</RelativeLayout>

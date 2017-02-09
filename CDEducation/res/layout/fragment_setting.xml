@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.libray.view.BounceScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="20dp"
+            android:background="@color/line" />
+
+        <LinearLayout style="@style/linerStyle" >
+
+            <TextView
+                style="@style/textStyle"
+                android:layout_marginLeft="15dp"
+                android:text="消息推送" />
+
+            <CheckBox
+                android:id="@+id/cb_push"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/box_selector"
+                android:button="@null"
+                android:checked="true" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="20dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:id="@+id/ll_collection"
+            style="@style/linerStyle" >
+
+            <TextView
+                style="@style/textStyle"
+                android:layout_marginLeft="15dp"
+                android:text="收        藏" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_right" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="20dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:id="@+id/ll_about"
+            style="@style/linerStyle" >
+
+            <TextView
+                style="@style/textStyle"
+                android:layout_marginLeft="15dp"
+                android:text="关于我们" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_right" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line" />
+    </LinearLayout>
+
+</com.libray.view.BounceScrollView>

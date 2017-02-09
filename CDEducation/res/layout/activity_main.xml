@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/menu_main_layout" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:context=".MyActivity" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5px"
+        android:background="@color/line" />
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/tab_bt_one_"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:paddingTop="5dp"
+            android:text="机构设置"
+            android:textColor="@color/tab_bt_text"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/rb_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/tab_bt_two_"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:paddingTop="5dp"
+            android:text="通知公告"
+            android:textColor="@color/tab_bt_text"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/rb_three"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/tab_bt_three_"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:paddingTop="5dp"
+            android:text="工作动态"
+            android:textColor="@color/tab_bt_text"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/rb_four"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/tab_bt_four_"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:paddingTop="5dp"
+            android:text="装备管理"
+            android:textColor="@color/tab_bt_text"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/rb_five"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/tab_bt_five_"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:paddingTop="5dp"
+            android:text="工作通报"
+            android:textColor="@color/tab_bt_text"
+            android:textSize="13sp" />
+    </RadioGroup>
+
+</LinearLayout>
